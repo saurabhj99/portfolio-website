@@ -1,0 +1,174 @@
+.portfolio-skills-section-wrapper {
+    height: 100vh;
+}
+
+.portfolio-skills-section {
+    display: grid;
+    max-width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    max-width: 85%;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 200px;
+    background-color: #2d3436;
+}
+
+.skill-card-title {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.skill-card.skill-title-HTML5 {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px orange,
+    
+    /* Left shadow */
+    -2px 2px 8px orange,
+    
+    /* Right shadow */
+    2px 2px 8px orange,
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-CSS3 {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px dodgerblue,
+    
+    /* Left shadow */
+    -2px 2px 8px dodgerblue,
+    
+    /* Right shadow */
+    2px 2px 8px dodgerblue,
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-Javascript {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px rgb(243, 239, 9),
+    
+    /* Left shadow */
+    -2px 2px 8px rgb(243, 239, 9),
+    
+    /* Right shadow */
+    2px 2px 8px rgb(243, 239, 9),
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-React {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px rgb(37, 149, 201),
+    
+    /* Left shadow */
+    -2px 2px 8px rgb(37, 149, 201),
+    
+    /* Right shadow */
+    2px 2px 8px rgb(37, 149, 201),
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-NodeJS {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px green,
+    
+    /* Left shadow */
+    -2px 2px 8px green,
+    
+    /* Right shadow */
+    2px 2px 8px green,
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-GraphQL {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px hotpink,
+    
+    /* Left shadow */
+    -2px 2px 8px hotpink,
+    
+    /* Right shadow */
+    2px 2px 8px hotpink,
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-ExpressJS {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px rgb(77, 76, 76),
+    
+    /* Left shadow */
+    -2px 2px 8px rgb(77, 76, 76),
+    
+    /* Right shadow */
+    2px 2px 8px rgb(77, 76, 76),
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.skill-card.skill-title-MongoDB {
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px rgb(101, 206, 101),
+    
+    /* Left shadow */
+    -2px 2px 8px rgb(101, 206, 101),
+    
+    /* Right shadow */
+    2px 2px 8px rgb(101, 206, 101),
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.portfolio-skills-section-header {
+    color: white;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.portfolio-skills-section-heading {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.portfolio-skills-section-description {
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}

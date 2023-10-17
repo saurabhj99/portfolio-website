@@ -1,0 +1,150 @@
+.portfolio-intro-section {
+  color: white;
+  display: grid;
+  max-width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  column-gap: 40px;
+  align-items: center;
+  grid-template-columns: 1.2fr 0.8fr;
+  padding: 20px;
+}
+
+.portfolio-intro-description-section {
+  display: grid;
+  grid-template-rows: minmax(50px, max-content) minmax(30px, max-content) minmax(20px, max-content);
+  row-gap: 10px;
+}
+
+.portfolio-intro-description-header-1 {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  width: max-content;
+}
+
+.portfolio-intro-description-text {
+  letter-spacing: 0.05em;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.portfolio-intro-description-header-1 .typewriter-effect span:last-child {
+  color: dodgerblue;
+}
+
+.portfolio-intro-description-header-2 {
+  color: dodgerblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.portfolio-intro-cta-container {
+  margin-top: 30px;
+}
+
+.portfolio-intro-downloadResume-cta, .portfolio-intro-contact-cta {
+  position: relative;
+  width: 130px;
+  padding: 15px 18px 15px 18px;
+  background-color: dodgerblue;
+  border: 2px solid dodgerblue;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.portfolio-intro-contact-cta {
+  margin-left: 40px;
+  background-color: transparent;
+  color: dodgerblue;
+}
+
+
+.portfolio-intro-contact-cta::before , .portfolio-intro-downloadResume-cta::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: .5s;
+}
+
+.portfolio-intro-downloadResume-cta::before {
+  background-color: black;
+}
+
+.portfolio-intro-contact-cta::before {
+  background-color: dodgerblue;
+}
+
+.portfolio-intro-downloadResume-cta:hover::before, .portfolio-intro-contact-cta:hover::before {
+  width: 100%;
+}
+
+.portfolio-intro-downloadResume-cta:hover {
+  color: dodgerblue;
+}
+
+.portfolio-intro-contact-cta:hover {
+  color: white;
+}
+
+.typewriter-effect {
+  width: 0;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .05em solid white;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  letter-spacing: .05em;
+  /* Adjust as needed */
+  animation:
+    typing 3s steps(30, end) forwards,
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: white;
+  }
+}
+
+.portfolio-intro-profile-image-section {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.portfolio-intro-profile-image-section>img {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: auto;
+}
