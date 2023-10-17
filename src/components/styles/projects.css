@@ -1,0 +1,139 @@
+.portfolio-projects-section-wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.portfolio-projects-section {
+    display: grid;
+    max-width: 85%;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    column-gap: 60px;
+    margin-top: 80px;
+}
+
+.project-card {
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d3436;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+    min-height: 620px;
+    max-height: 620px;
+    border: 1px solid dodgerblue;
+    box-shadow: 
+    /* Bottom shadow */
+    2px 2px 8px dodgerblue,
+    
+    /* Left shadow */
+    -2px 2px 8px dodgerblue,
+    
+    /* Right shadow */
+    2px 2px 8px dodgerblue,
+    
+    /* No top shadow */
+    0px 0px 0px 0px;
+}
+
+.project-snapshot {
+    max-width: 98%;
+    max-height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.project-snapshot > img {
+    height: inherit;
+    width: 100%;
+}
+
+.project-tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tag {
+    border: 2px solid  dodgerblue;
+    border-radius: 8px;
+    background-color: black;
+    padding: 6px 8px 6px 8px;
+    color: white;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.portfolio-projects-section-header {
+    color: white;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.portfolio-projects-section-heading {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.portfolio-projects-section-description {
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.portfolio-project-card-cta-container {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.portfolio-project-card-cta {
+    position: relative;
+    width: 100px;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    background-size: 200% 200%;
+    transition: background-position .5s;
+  }
+  
+ .portfolio-project-card-cta {
+    background-image: linear-gradient(to right, dodgerblue 50%, black 0);
+    background-position: right;
+  }
+  
+  .portfolio-project-card-cta:hover {
+    background-position: left;
+    color: white;
+  }
+  

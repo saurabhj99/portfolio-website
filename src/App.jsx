@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import "./index.css"
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Intro />
       <Skills/>
+      <Projects/>
       <Contact/>
       <Footer />
     </div>

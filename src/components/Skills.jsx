@@ -287,7 +287,7 @@ const Skills = () => {
     <div className="portfolio-skills-section-wrapper" name="skills">
         <div className="portfolio-skills-section-header">
             <h1 className="portfolio-skills-section-heading">Skills</h1>
-            <p className="portfolio-skills-section-description">Below are the technologies i've worked with</p>
+            <p className="portfolio-skills-section-description">These are the technologies i've worked with</p>
         </div>
         <div className="portfolio-skills-section">
         {SKILLS.map((title, index) => (

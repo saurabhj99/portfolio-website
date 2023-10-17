@@ -13,7 +13,7 @@ const LINKS = [
   },
   {
     title: "Projects",
-    id: "projects",
+    link: "projects",
   },
   {
     title: "Contact",

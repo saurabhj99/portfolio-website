@@ -4,7 +4,6 @@
 
 .portfolio-skills-section {
     display: grid;
-    max-width: 80%;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;

@@ -48,7 +48,6 @@
   position: relative;
   width: 130px;
   padding: 15px 18px 15px 18px;
-  background-color: dodgerblue;
   border: 2px solid dodgerblue;
   color: white;
   border-radius: 8px;
@@ -58,44 +57,30 @@
   cursor: pointer;
   z-index: 1;
   overflow: hidden;
+  background-size: 200% 200%;
+  transition: background-position .5s;
 }
 
-.portfolio-intro-contact-cta {
-  margin-left: 40px;
-  background-color: transparent;
-  color: dodgerblue;
-}
-
-
-.portfolio-intro-contact-cta::before , .portfolio-intro-downloadResume-cta::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left:0;
-  width: 0;
-  height: 100%;
-  z-index: -1;
-  transition: .5s;
-}
-
-.portfolio-intro-downloadResume-cta::before {
-  background-color: black;
-}
-
-.portfolio-intro-contact-cta::before {
-  background-color: dodgerblue;
-}
-
-.portfolio-intro-downloadResume-cta:hover::before, .portfolio-intro-contact-cta:hover::before {
-  width: 100%;
+.portfolio-intro-downloadResume-cta{
+  background-image: linear-gradient(to right, black 50%, dodgerblue 0);
+  background-position: right;
 }
 
 .portfolio-intro-downloadResume-cta:hover {
+  background-position: left;
+  color: dodgerblue
+}
+
+.portfolio-intro-contact-cta{
+  margin-left: 40px;
   color: dodgerblue;
+  background-image: linear-gradient(to right, dodgerblue 50%, black 0);
+  background-position: right;
 }
 
 .portfolio-intro-contact-cta:hover {
-  color: white;
+  background-position: left;
+  color: white
 }
 
 .typewriter-effect {
