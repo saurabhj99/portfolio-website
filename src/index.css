@@ -16,3 +16,23 @@
     background: linear-gradient(115deg, rgb(0, 0, 0), rgb(43, 32, 25));;
     position: absolute;
 }
+
+.portfolio-section-header {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.portfolio-section-heading {
+    color: dodgerblue;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.portfolio-section-description {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}

@@ -4,8 +4,8 @@ import "./styles/navbar.css";
 
 const LINKS = [
   {
-    title: "Home",
-    link: "home",
+    title: "About",
+    link: "about",
   },
   {
     title: "Skills",

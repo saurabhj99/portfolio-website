@@ -1,0 +1,47 @@
+.portfolio-contact-section-wrapper {
+    height: 100vh;
+    color: white;
+}
+
+.portfolio-contact-section {
+    display: grid;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+    height: 75%;
+}
+
+.portfolio-contact-card {
+    max-width: 35%;
+    min-width: 35%;
+    border: 2px solid white;
+    border-radius: 10px;
+    min-height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-around;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    background-color: dodgerblue;
+}
+
+.contact-info-container {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 0.20fr 0.60fr;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-container:first-child {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.contact-info-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
