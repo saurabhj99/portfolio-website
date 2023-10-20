@@ -1,5 +1,5 @@
 .portfolio-contact-section-wrapper {
-    height: 100vh;
+    min-height: 100vh;
     color: white;
 }
 
@@ -50,4 +50,46 @@ a.contact-info-container {
 
 .contact-info-container:first-child {
     border-bottom: 1px solid #f3f3f3;
+}
+
+@media screen and (max-width: 1600px) {
+    .portfolio-contact-card  {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .portfolio-contact-card  {
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio-contact-card  {
+        min-width: 60%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio-contact-card  {
+        min-width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio-contact-card  {
+        min-width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-contact-card  {
+        min-width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-contact-card  {
+        min-width: 90%;
+    }
 }

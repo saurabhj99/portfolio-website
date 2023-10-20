@@ -1,5 +1,5 @@
 .portfolio-skills-section-wrapper {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .portfolio-skills-section {
@@ -151,4 +151,19 @@
     
     /* No top shadow */
     0px 0px 0px 0px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .portfolio-skills-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-skills-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
