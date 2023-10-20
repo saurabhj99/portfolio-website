@@ -14,7 +14,6 @@
 .portfolio-contact-card {
     max-width: 35%;
     min-width: 35%;
-    border: 2px solid white;
     border-radius: 10px;
     min-height: 200px;
     width: 100%;
@@ -23,7 +22,7 @@
     justify-content: space-around;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
-    background-color: dodgerblue;
+    background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 }
 
 .contact-info-container {
@@ -33,15 +32,22 @@
     column-gap: 20px;
     align-items: center;
     justify-content: center;
+    filter: opacity(0.7);
+    transition: .5s;
+    cursor: pointer;
 }
 
-.contact-info-container:first-child {
-    border-bottom: 1px solid #f3f3f3;
-}
-
-.contact-info-container a {
+a.contact-info-container {
     text-decoration: none;
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
+}
+
+.contact-info-container:hover {
+    filter: opacity(1);
+}
+
+.contact-info-container:first-child {
+    border-bottom: 1px solid #f3f3f3;
 }

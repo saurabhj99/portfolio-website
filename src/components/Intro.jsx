@@ -25,11 +25,11 @@ const Intro = () => {
           <button className="portfolio-intro-downloadResume-cta" type="button">
             Resume
           </button>
-          <button className="portfolio-intro-contact-cta" type="button">
-            <Link to="contact" smooth duration={500}>
+          <Link to="contact" smooth duration={500}>
+            <button className="portfolio-intro-contact-cta" type="button">
               Contact
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
       <div className="portfolio-intro-profile-image-section">
