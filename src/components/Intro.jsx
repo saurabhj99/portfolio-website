@@ -1,4 +1,7 @@
 import { Link } from "react-scroll";
+
+import MyResume from "@public/My_Resume.pdf";
+import ProfilePicture from "@public/images/profilePicture.jpeg";
 import "./styles/intro.css";
 
 const Intro = () => {
@@ -23,7 +26,9 @@ const Intro = () => {
 
         <div className="portfolio-intro-cta-container">
           <button className="portfolio-intro-downloadResume-cta" type="button">
+            <a href={MyResume} download="Saurabh Joshi Resume.pdf">
             Resume
+            </a>
           </button>
           <Link to="contact" smooth duration={500}>
             <button className="portfolio-intro-contact-cta" type="button">
@@ -33,7 +38,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="portfolio-intro-profile-image-section">
-        <img src="https://media.licdn.com/dms/image/D4D03AQGhUZXr5-vcPg/profile-displayphoto-shrink_800_800/0/1669745700203?e=1702512000&v=beta&t=Fuje1uutiXhZ7sKqfLXeQHh2VK6o0ipq7kMYNbVPjSI" />
+        <img alt="profilePicture" src={ProfilePicture} />
       </div>
     </div>
   );

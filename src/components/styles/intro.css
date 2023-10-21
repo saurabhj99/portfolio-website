@@ -63,6 +63,11 @@
   transition: background-position .5s;
 }
 
+.portfolio-intro-downloadResume-cta a {
+   text-decoration: none;
+   color: white;
+}
+
 .portfolio-intro-downloadResume-cta{
   background-image: linear-gradient(to right, black 50%, dodgerblue 0);
   background-position: right;
@@ -70,6 +75,10 @@
 
 .portfolio-intro-downloadResume-cta:hover {
   background-position: left;
+  color: dodgerblue
+}
+
+.portfolio-intro-downloadResume-cta:hover a {
   color: dodgerblue
 }
 

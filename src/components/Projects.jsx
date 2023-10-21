@@ -49,7 +49,7 @@ const ProjectCard = ({
       <div className="project-title">{title}</div>
       <div className="project-tech-stack">
         {techStack.split("+").map((technology) => (
-          <div className="tag">{technology}</div>
+          <div key={technology} className="tag">{technology}</div>
         ))}
       </div>
       <div className="project-description">{description}</div>

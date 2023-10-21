@@ -165,3 +165,9 @@
         grid-template-columns: 0.8fr;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .portfolio-projects-section {
+        grid-template-columns: 1fr;
+    }
+  }
