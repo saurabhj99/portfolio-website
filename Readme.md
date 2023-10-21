@@ -22,6 +22,6 @@
   ```
 
   ## Live Demo
-  - Click on link to see the live demo
+Click on link to see the live demo
     [React Portfolio Website](https://portfolio-website-six-black.vercel.app/)
 
