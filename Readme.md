@@ -5,7 +5,7 @@
   ## Getting Started 🚀  
   - Clone the repo
   ```bash
-  git clone <repo_hash>
+  git clone <repo_url>
   ```
   - Install dependencies
   ```   
@@ -22,4 +22,7 @@
   ```
 
   ## Live Demo
-  Click on link below to see the live demo
+  Click on link below to see the live demo 
+  ```
+   https://portfolio-website-six-black.vercel.app/
+  ```
